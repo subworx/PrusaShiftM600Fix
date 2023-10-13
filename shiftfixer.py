@@ -30,7 +30,7 @@ for line in source:
         yvalue = split[2][1:]
         value = float(yvalue)
         # reduce value by 1
-        value -= 1.0
+        value -= 1.15
         # put value back into string form
         txt = "Y{}"
         split[2] = txt.format(value)
