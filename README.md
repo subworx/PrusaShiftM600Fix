@@ -17,7 +17,8 @@ The error is NOT caused by moving any part of the printer or the printer being m
 - During changing filament, I didn't touch anything except for the filament itself. Not the bed, not the head (the latter wouldn't explain a Y-axis shift anyway).
 - This happens on all kinds of objects. Downloaded STL files, self-made test objects, doesn't matter.
 
-I attached the test object as STL, the generated G-Code, and the shift-fixed variant for you to take a look at and verify.
+I attached the test object as STL, the generated G-Code, and the shift-fixed variant for you to take a look at and verify. Just open the STL in your slicer, print it once in single color to make sure there are no shifts (there should not be), next add a color change after layer 4 and check your results with and without the script.
+
 
 # Advice
 
